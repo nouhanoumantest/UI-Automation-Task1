@@ -26,7 +26,7 @@ public class DriverFactory {
         option.addArguments("--disable-popup-bloacking");
         option.addArguments("--enable-javascript");
         option.addArguments("--remote-allow-origins=*");
-        option.addArguments("headless");
+        //option.addArguments("headless");
         option.setAcceptInsecureCerts(true);
         option.setCapability(ChromeOptions.CAPABILITY, option);
 
