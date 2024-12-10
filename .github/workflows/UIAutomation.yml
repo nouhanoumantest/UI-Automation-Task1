@@ -22,5 +22,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run UI Automation
-      run: mvn clean test
+      run: mvn clean test -Dcucumber.options="target/test-classes/features"
 
