@@ -85,7 +85,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>**/*EcommerceFreshMain.java</include>
+                        <exclude>**/*EcommerceFreshMain.java</exclude>
                     </includes>
                 </configuration>
             </plugin>
